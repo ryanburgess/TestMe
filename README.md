@@ -12,18 +12,20 @@ Add JavaScript reference for testme.js in your HTML.
 Set up config file to initiate the tests you’d like to run.
 	
 	<script type="text/javascript">
-	  testMe.init({
-    	"A B Test 1": [
-            "variance-1",
-            "variance-2"
-        ]
-    });
+	    testMe.init({
+	    	"A B Test 1": [
+	            "variance-1",
+	            "variance-2"
+	        ]
+	    });
 	</script>	
 	
 Add ID's to HTML elements that reference the items in the config file. Example to different links:
 	
-	
-  <a href="#" id="variance-1" class="ab-test">Linke 1</a>
+		
+  	<a href="#" id="variance-1" class="ab-test">Linke 1</a>
 
 
-  <a href="#" id="variance-2" class="ab-test">Linke 2</a>
+  	<a href="#" id="variance-2" class="ab-test">Linke 2</a>
+  
+Run tests and track using Google Analytics.
