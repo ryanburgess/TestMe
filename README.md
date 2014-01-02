@@ -25,7 +25,6 @@ Add ID's to HTML elements that reference the items in the config file. Example t
 		
   	<a href="#" id="variance-1" class="ab-test">Linke 1</a>
 
-
   	<a href="#" id="variance-2" class="ab-test">Linke 2</a>
   
 Run tests and track using Google Analytics.
